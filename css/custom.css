@@ -1,0 +1,415 @@
+#menu ul ul {
+    position: absolute;
+    display: none;
+}
+#menu ul li:hover > ul {
+    display: block;
+}
+.dd-menu {
+    background-color: white;
+}
+
+.dropbtn {
+  padding: 16px;
+  cursor: pointer;
+}
+
+
+ The container <div> - needed to position the dropdown content
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+ Dropdown Content (Hidden by Default)
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+ Links inside the dropdown
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+ Change color of dropdown links on hover
+.dropdown-content a:hover {background-color: #ddd}
+
+ Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button)
+.show {display:block;}
+
+
+.dropbtn1 {
+  padding: 16px;
+  cursor: pointer;
+}
+
+ Dropdown button on hover & focus
+
+
+ The container <div> - needed to position the dropdown content
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+ Dropdown Content (Hidden by Default)
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+ Links inside the dropdown
+.dropdown-content1 a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+ Change color of dropdown links on hover
+.dropdown-content1 a:hover {background-color: #ddd}
+
+ Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button)
+.show {display:block;}
+
+.div {
+    background-color: white;
+    color: #1f386E;
+    width: 270px;
+    height: 159px;
+    border: 1px solid white;
+    margin: 0px 10px;
+}
+.div:hover {
+    background-color: #1F386E;
+    color: white;
+}
+.icon {
+    position: relative;
+    margin-top: 10%;
+    left: 40%;
+    font-size: 40px;
+}
+.div-text {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+
+.dd-menu {
+    background-color: white;
+}
+
+slider {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #1F1F1F;
+    overflow: hidden;
+    position: absolute;
+}
+slider > * {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #1F1F1F;
+    animation: slide 12s infinite;
+    overflow: hidden;
+}
+slide:nth-child(1) {
+    left: 0%;
+    animation-delay: -1s;
+    background: url(../img/intro-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+slide:nth-child(2) {
+    animation-delay: 2s;
+    background: url(../img/intro-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+slide:nth-child(3) {
+    animation-delay: 5s;
+    background: url(../img/intro-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+slide p {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    color: black;
+    font-size: 70px;
+}
+slide h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-size: 62px;
+	font-weight: 700;
+	margin-top: 20%;
+    text-align: center;
+	margin-bottom: 10px;
+	text-shadow: 0 0 15px rgba(0,0,0,0.5)
+}
+
+@keyframes slide {
+    0% { left: 100%; width: 100%;}
+    5% { left: 0%;}
+    25% { left: 0%;}
+    30% { left: -100%; width: 100%;}
+    30.001% { left: -100%; width: 0%}
+    100% { left: 100%; width: 0%}
+}
+.slider-container {
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: left;
+}
+.image-container {
+    width: 2400px;
+    height: 600px;
+    position: relative;
+    transition: left 3s;
+    -webkit-transition: left 3s;
+    -moz-transition: left 3s;
+    -o-transition: left 3s;
+}
+.slider-image {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 800px;
+    height: 600px;
+}
+.button-container {
+    top: -20px;
+    position: relative;
+    text-align: center;
+}
+.slider-button {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background: white;
+    color: black;
+}
+#slider-image-1:target ~ .image-container {
+    left: 0px;
+}
+#slider-image-2:target ~ .image-container {
+    left: -800px;
+}
+#slider-image-3:target ~ .image-container {
+    left: -1600px;
+}
+
+.button1 {
+    padding: 20px;
+    border: none;
+    background: #37f;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 45%;
+}
+
+.button {
+    padding: 20px;
+    border: none;
+    background: #ffffff;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    top: 40%;
+}
+.next {
+    border-radius: 0px 10px 10px 0px;
+    margin-left: 950px;
+}
+.prev {
+    border-radius: 0px 10px 10px 0px;
+}
+.nextSlide {
+    border-radius: 0px 10px 10px 0px;
+    margin-left: 950px;
+}
+.prevSlide {
+    border-radius: 0px 10px 10px 0px;
+}
+#slider {
+
+}
+.img-slider {
+    position: relative;
+}
+.text {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    text-align: center;
+    width: 60%;
+    color: white;
+    font-weight: bold;
+}
+.serv {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 10%;
+    text-align: center;
+    width: 60%;
+    color: white;
+}
+.ser-text:hover {
+    color: #1F386E;
+    background-color: white;
+}
+.ser-text:hover > p {
+    color: #1F386E;
+    background-color: white;
+    position: absolute;
+}
+.ser {
+    color:white;
+    background-color: #1F386E;
+    width:300px;
+    height:300px;
+}
+.image {
+    width: 180px;
+    height: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+@media screen and (max-width: 500px) {
+  .image {
+    width: 50%;
+  }
+}
+.service-image {
+    width: 300px;
+    height: 200px;
+}
+.div {
+    background-color: #1f386E;
+    color: white;
+    width: 270px;
+    height: 159px;
+    margin: 0px 5px;
+}
+@media screen and (max-width: 500px) {
+  .div {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .img-responsive {
+    width: 100%;
+  }
+  .clients{
+      height:300px;
+      overflow: scroll;
+  }
+}
+.div:hover {
+    background-color: white;
+    color: #1F386E;
+}
+.icon {
+    position: relative;
+    margin-top: 10%;
+    left: 40%;
+    font-size: 40px;
+}
+.div-text {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.services-text {
+    color: #1F386E;
+}
+#stage a {
+  position: absolute;
+}
+#stage a img {
+  position: relative;
+}
+
+#stage a:nth-of-type(1) {
+  animation-name: fader;
+  animation-delay: 4s;
+  animation-duration: 1s;
+  z-index: 20;
+}
+#stage a:nth-of-type(2) {
+  z-index: 10;
+}
+#stage a:nth-of-type(n+3) {
+  display: none;
+}
+
+@keyframes fader {
+  from { opacity: 1.0; }
+  to   { opacity: 0.0; }
+}
+.gallery-text{
+    color: white;
+}
+.text>h4{
+    color: white;
+}
+.text>h4:hover{
+    display: none;
+}
+
+/* for mobile*/
+
+@media screen and (max-width: 700px) {
+    .dd-menu {
+        background-color: #1F386E;
+        color: white;
+    }
+    .dd-menu li a {
+        color: white;
+    }
+    .homeimg {
+        width:400px;
+        height:400px;
+    }
+}
+
+.homeimg {
+    margin-left:auto;
+    margin-right:auto;
+    width:700px;
+    height:900px;
+    position:relative;
+}

@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<!--<meta name="robots" content="noindex">--
+
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- Navigation
+    ==========================================-->
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top" style="font-size:20px;">Funmi Quadri & Co</a>
+        </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html" class="page-scroll">Home</a></li>
+            <li><a href="library.html" class="page-scroll">Library</a></li>
+            <li>
+                <a href="#" id="showMenu1" onclick="myFunction()" class="page-scroll dropbtn">Services<span class="caret"></span></a>
+                <ul class="nav navbar dd-menu dropdown-content" id="myDropdown">
+                    <li><a href="litigation.html">Litigation</a></li>
+                    <li><a href="consultancy.html">Consultancy</a></li>
+                    <li><a href="it.html">Information Technology</a></li>
+                    <li><a href="publishing.html">Publishing</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" id="showMenu2" onclick="myFunction1()" class="page-scroll dropbtn1">Products<span class="caret"></span></a>
+                <ul class="nav navbar dd-menu dropdown-content1" id="myDropdown1">
+                    <li><a href="smc.html">Selected Matrimonial Cases</a></li>
+                    <li><a href="nscqlr.html">NSCQLR</a></li>
+                    <li><a href="epr.html">Election Petition Report</a></li>
+                    <li><a href="lc.html">Locus Classicus</a></li>
+                    <li><a href="ncc.html">Nigerian Criminal Cases</a></li>
+                    <li><a href="usbversion.html">Law Companion USB version</a></li>
+                    <li><a href="laptopversion.html">Law Companion Laptop version</a></li>
+                    <li><a href="ipadversion.html">Law Companion iPad version</a></li>
+                </ul>
+            </li>
+            <li><a href="gallery.html" class="page-scroll">Gallery</a></li>
+            <li><a href="pricing.html" class="page-scroll">Pricing</a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+
+        /* When the user clicks on the button,
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        function myFunction1() {
+          document.getElementById("myDropdown1").classList.toggle("show");
+        }
+
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn1')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content1");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+
+
+    </script>
+
+    </div>
+</nav>
+
+
+<!-- Header -->
+<header id="header" style="background-color:#1f386e;margin-top:5%;">
+  <img class="homeimg" src="img/img1.jpg" alt="">
+</header>
+<!-- Get Touch Section -->
+<div id="get-touch">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6 col-md-offset-1">
+        <h3>Mrs Funmilayo Quadri</h3>
+        <p>About</p>
+      </div>
+      <div class="col-xs-12 col-md-4 text-center"><a href="#contact" class="btn btn-custom btn-lg page-scroll">Funmi Quadri</a></div>
+    </div>
+  </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row" align="justify">
+            <div class="col-xs-12 col-md-4">
+                <div class="about-text">
+                    <h2>Who We Are</h2>
+                    <p>
+                        Funmi Quadri & Co has been offering services in the justice and legal sector
+                        for over 19 years. This services we have offered both in Nigeria and outside
+                        Nigeria. We are dedicated to providing a broad range enterprise level services
+                        aimed at improving productivity and profitability.
+                    </p>
+                    <p>
+                        We pride ourselves in our excellent reputation for providing pro-active,
+                        efficient, cost effective IT support and Consultancy services with a
+                        personalised level of service which cannot be matched by our competitors
+                        We also have over 20 years experience in the area of litigation and publishing
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-4">
+                <div class="">
+                    <h2>Supreme Court<br> Judgement</h2>
+
+                    <div class="" style="height:300px;overflow:scroll;">
+                        <div class="col-sm-12 col-xs-12">
+                            <ul>
+                                <li><a href="http://lawcompanion.net/weekly2/172.pdf">PDP V. SENATOR ALI MODU SHERRIF</a></li><br>
+                                <li><a href="http://lawcompanion.net/weekly2/170.pdf">INEC V. EJIKE OGUEBEGO</a></li><br>
+                                <li><a href="http://www.funmiquadrionline.com/">KENTE V DARIUS DICKSON ISHAKU</a></li><br>
+                                <li><a href="http://lawcompanion.net/weekly2/158.pdf">FCT SENTENCING GUIDELINES PRACTICE <br> DIRECTION, 2017</a></li>
+                                <li><a href="http://lawcompanion.net/weekly2/2392.pdf">SIFAX NIGERIA LIMITED v. MIGFO NIGERIA LIMITED 2018</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-4">
+                <div class="">
+                    <h2>Latest News</h2>
+
+                    <div class="" style="height:300px;overflow:scroll;">
+                        <div class="col-sm-12 col-xs-12">
+                            <ul>
+                                <li><a href="https://www.dnllegalandstyle.com/funmi-quadri-co-digitalizes-firs-legal-department/">Funmi Quadri &amp; Co digitalises the entire <br>legal department of the FIRS </a></li><br>
+                                <li><a href="http://www.norrionews.com/experts-call-for-special-courts-to-handle-tax-issues/">Funmi Quadri &amp; Co launches Electronic<br> tax platform which will aid tax experts</a></li><br>
+                                <li><a href="http://www.norrionews.com/experts-call-for-special-courts-to-handle-tax-issues/">Funmi Quadri &amp; Co launches Electronic<br> tax platform which will aid tax experts</a></li><br>
+                                <li><a href="news.html">Book launch in honor of Hon. Justice B.A. Adejumo</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="services" align="justify">
+    <div class="container">
+        <div class="section-title">
+            <h2>Our Services</h2>
+        </div>
+        <div class="row text-center">
+            <a href="litigation.html">
+                <div class="col-md-3 col-lg-3 col-sm-12 div text-center">
+                    <p class="div-text">LITIGATION</p>
+                    <p class="services-text">At Funmi Quadri & co, we offer litigation services and support.We have a formidable team of legal practitioners who have...</p>
+                </div>
+            </a>
+
+            <a href="consultancy.html">
+                <div class="col-md-3 col-lg-3 col-sm-12 div text-center">
+                    <p class="div-text">CONSULTANCY</p>
+                    <p class="services-text">Funmi Quadri & Co is a diversified firm dedicated to providing cutting edge Legal and Tax services to individuals and...</p>
+                </div>
+            </a>
+
+            <a href="it.html">
+                <div class="col-md-3 col-lg-3 col-sm-12 div text-center">
+                    <p class="div-text">INFORMATION TECHNOLOGY</p>
+                    <p class="services-text">Funmi Quadri & Co offers support services that is dedicated to proving a borad range of...</p>
+                </div>
+            </a>
+
+            <a href="publishing.html">
+                <div class="col-md-3 col-lg-3 col-sm-12 div text-center">
+                    <p class="div-text">PUBLISHING</p>
+                    <p class="services-text">Funmi Quadri & Co has over the years published several titles for both our organisation and several other organisation...</p>
+                </div>
+            </a>
+
+        </div>
+    </div>
+</div>
+<!-- Gallery Section -->
+<div id="portfolio">
+  <div class="container">
+    <div class="section-title">
+      <h2>Gallery</h2>
+    </div>
+    <div class="row">
+        <div class="portfolio-items">
+          <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/nba2019/1.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb">
+                <div class="hover-text">
+                  <h4>NBA CONFERENCE<br><strong>2019</strong></h4>
+                </div>
+                <img style="width:400px;height:300px;" src="img/nba2019/1.jpg" class="img-responsive"> </a> </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                  <a href="img/nba2019/2.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a>
+            </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/nba2019/3.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a> </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/nba2019/4.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a> </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/nba2019/5.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a> </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                  <a href="img/nba2019/6.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a>
+            </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/nba2019/7.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a> </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/nba2019/8.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a> </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/nba2019/9.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a> </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                  <a href="img/nba2019/10.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a>
+            </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/nba2019/11.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a> </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/nba2019/12.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a> </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/nba2019/13.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a> </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/nba2019/14.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a> </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/nba2019/15.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a> </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/nba2019/16.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a> </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/nba2019/17.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a> </div>
+            </div>
+          </div>
+        </div>
+
+
+      <div class="portfolio-items">
+          <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/nba2018/3.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb">
+                <div class="hover-text">
+              <h4>NBA CONFERENCE<br><strong> 2018</strong></h4>
+                </div>
+                <img style="width:400px;height:300px;" src="img/nba2018/3.jpg" class="img-responsive"> </a> </div>
+            </div>
+          </div>
+        <div class="col-sm-6 col-md-4 col-lg-4">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/nba2018/4.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a> </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-4 col-lg-4">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/nicn/1.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb">
+              <div class="hover-text">
+                <h4>BOOK LAUNCH OF HON. JUSTICE B.A. ADEJUMO</h4>
+              </div>
+              <img style="width:400px;height:300px;" src="img/nicn/1.jpg" class="img-responsive"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+          <div class="portfolio-item">
+            <div class="hover-bg">
+                <a href="img/nicn/2.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a>
+          </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/nicn/3.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/nicn/4.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+          <div class="portfolio-item">
+            <div class="hover-bg">
+                <a href="img/nicn/5.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a>
+          </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/nicn/6.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/nicn/7.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+          <div class="portfolio-item">
+            <div class="hover-bg">
+                <a href="img/nicn/8.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a>
+          </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/nicn/9.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+          <div class="portfolio-item">
+            <div class="hover-bg">
+                <a href="img/nicn/10.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a>
+          </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/nicn/11.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a> </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="row">
+
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-4 col-lg-4">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/qtax/1.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb">
+              <div class="hover-text">
+                <h4>QTAX SHERATON<br><strong>ABUJA, 2017</strong></h4>
+              </div>
+              <img style="width:400px;height:300px;" src="img/qtax/1.jpg" class="img-responsive"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+          <div class="portfolio-item">
+            <div class="hover-bg">
+                <a href="img/qtax/2.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a>
+          </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/qtax/3.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a> </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-4 col-lg-4">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/firs/1.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb">
+              <div class="hover-text">
+                <h4>FIRS DIGITILIZATION<br><strong>ABUJA, 2017</strong></h4>
+              </div>
+              <img style="width:400px;height:300px;" src="img/firs/1.jpg" class="img-responsive"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+          <div class="portfolio-item">
+            <div class="hover-bg">
+                <a href="img/firs/2.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a>
+          </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/firs/3.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a> </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-4 col-lg-4" style="margin-top:15px;">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/legaltech/1.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" >
+              <div class="hover-text">
+                <h4>LEGAL TECH 2016<br><strong>NEW YORK</strong></h4>
+              </div>
+              <img style="width:400px;height:300px;" src="img/legaltech/1.jpg" class="fancybox-thumb fancybox.image"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+          <div class="portfolio-item">
+            <div class="hover-bg">
+                <a href="img/legaltech/2.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" > </a>
+          </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/legaltech/3.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" ></a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4" style="display:none;">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/legaltech/4.jpg" class="fancybox-thumb fancybox.image" rel="fancybox-thumb" ></a> </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+<script>
+
+  $(document).ready(function (x) {
+      $(".fancybox-thumb").fancybox({
+          prevEffect: 'none',
+          nextEffect: 'none',
+          helpers: {
+              title: {
+                  type: 'outside'
+              },
+              thumbs: {
+                  width: 50,
+                  height: 50
+              }
+          }
+      });
+  });
+
+</script>
+
+<!-- Gallery Section -->
+<div id="portfolio">
+    <div class="container">
+        <div class="section-title">
+            <h2>Our Clients</h2>
+        </div>
+        <div class="row text-center clients">
+            <div class="col-sm-1 col-md-3 col-lg-2">
+                <img class="image" src="img/01.jpg">
+            </div>
+            <div class="col-sm-1 col-md-3 col-lg-2">
+                <img class="image" src="img/02.jpg">
+            </div>
+            <div class="col-sm-1 col-md-3 col-lg-2">
+                <img class="image" src="img/03.jpg">
+            </div>
+            <div class="col-sm-1 col-md-3 col-lg-2">
+                <img class="image" src="img/04.jpg">
+            </div>
+            <div class="col-sm-1 col-md-3 col-lg-2">
+                <img class="image" src="img/05.jpg">
+            </div>
+            <div class="col-sm-1 col-md-3 col-lg-2">
+                <img class="image" src="img/06.jpg">
+            </div>
+            <div class="col-sm-1 col-md-3 col-lg-2">
+                <img class="image" src="img/07.jpg">
+            </div>
+            <div class="col-sm-1 col-md-3 col-lg-2">
+                <img class="image" src="img/08.jpg">
+            </div>
+            <div class="col-sm-1 col-md-3 col-lg-2">
+                <img class="image" src="img/09.jpg">
+            </div>
+            <div class="col-sm-1 col-md-3 col-lg-2">
+                <img class="image" src="img/10.jpg">
+            </div>
+            <div class="col-sm-1 col-md-3 col-lg-2">
+                <img class="image" src="img/11.jpg">
+            </div>
+            <div class="col-sm-1 col-md-3 col-lg-2">
+                <img class="image" src="img/12.jpg">
+            </div>
+            <div class="col-sm-1 col-md-3 col-lg-2">
+                <img class="image" src="img/13.jpg">
+            </div>
+            <div class="col-sm-1 col-md-3 col-lg-2">
+                <img class="image" src="img/14.jpg">
+            </div>
+            <div class="col-sm-1 col-md-3 col-lg-2">
+                <img class="image" src="img/15.jpg">
+            </div>
+            <div class="col-sm-1 col-md-3 col-lg-2">
+                <img class="image" src="img/16.jpg">
+            </div>
+            <div class="col-sm-1 col-md-3 col-lg-2">
+                <img class="image" src="img/17.jpg">
+            </div>
+            <div class="col-sm-1 col-md-3 col-lg-2">
+                <img class="image" src="img/18.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Testimonials Section -->
+<div id="testimonials">
+  <div class="container">
+    <div class="section-title">
+      <h2>Testimonials</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="testimonial">
+          <div class="testimonial-image"> <img src="img/user.jpg" alt=""> </div>
+          <div class="testimonial-content">
+            <p>"Law Companion is a good product and I give kudos to it and its owner for the wonderful gift"</p>
+            <div class="testimonial-meta"> - Anonymous </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testimonial">
+          <div class="testimonial-image"> <img src="img/user.jpg" alt=""> </div>
+          <div class="testimonial-content">
+            <p>"Law Companion platform is exceptionally excellent. Without any iota of sentiments, I will urge legal practitioners and Judges to utilise this platform."</p>
+            <div class="testimonial-meta"> - Danladi Yakubu </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testimonial">
+          <div class="testimonial-image"> <img src="img/user.jpg" alt=""> </div>
+          <div class="testimonial-content">
+            <p>"I switched devices and the technical team fixed the login details as soon as I notified them"</p>
+            <div class="testimonial-meta"> - Tale Alabi </div>
+          </div>
+        </div>
+      </div>
+      <div class="row"> </div>
+      <div class="col-md-4">
+        <div class="testimonial">
+          <div class="testimonial-image"> <img src="img/user.jpg" alt=""> </div>
+          <div class="testimonial-content">
+            <p>"Superb, this is the best e-library app I have used. User friendly and smart. Great work."</p>
+            <div class="testimonial-meta"> - Dan Oni Oluwafemi </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testimonial">
+          <div class="testimonial-image"> <img src="img/user.jpg" alt=""> </div>
+          <div class="testimonial-content">
+            <p>"Law Companion, quick reference and affordable."</p>
+            <div class="testimonial-meta"> - Anonymous </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testimonial">
+          <div class="testimonial-image"> <img src="img/user.jpg" alt=""> </div>
+          <div class="testimonial-content">
+            <p>"It's a very beautiful and user-friendly application"</p>
+            <div class="testimonial-meta"> - Anonymous </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="more-testimonials">
+        <a href="#">See more Testimonials</a>
+    </div>
+
+    <!-- more testimonials -->
+    <div class="row" id="more-testimonials" style="display:none;">
+      <div class="col-md-4">
+        <div class="testimonial">
+          <div class="testimonial-image"> <img src="img/user.jpg" alt=""> </div>
+          <div class="testimonial-content">
+            <p>"It's a fantastic app. Best used for lawyers"</p>
+            <div class="testimonial-meta"> - Stephen Akura </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testimonial">
+          <div class="testimonial-image"> <img src="img/user.jpg" alt=""> </div>
+          <div class="testimonial-content">
+            <p>"Great app. Great work. Well done"</p>
+            <div class="testimonial-meta"> - Olatunji Ishola </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testimonial">
+          <div class="testimonial-image"> <img src="img/user.jpg" alt=""> </div>
+          <div class="testimonial-content">
+            <p>"Fantastic app. Recommended for every lawyer"</p>
+            <div class="testimonial-meta"> - Stella Buga </div>
+          </div>
+        </div>
+      </div>
+      <div class="row"> </div>
+      <div class="col-md-4">
+        <div class="testimonial">
+          <div class="testimonial-image"> <img src="img/user.jpg" alt=""> </div>
+          <div class="testimonial-content">
+            <p>"This application is fantastic."</p>
+            <div class="testimonial-meta"> - Lexson Epu </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testimonial">
+          <div class="testimonial-image"> <img src="img/user.jpg" alt=""> </div>
+          <div class="testimonial-content">
+            <p>"It's excellent. All lwayers should patronize you."</p>
+            <div class="testimonial-meta"> - Siyaka M.J. usman </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testimonial">
+          <div class="testimonial-image"> <img src="img/user.jpg" alt=""> </div>
+          <div class="testimonial-content">
+            <p>"It's a very easy to use, convenient and smart App. Thanks and kudos to the developers"</p>
+            <div class="testimonial-meta"> - Carol Ajie </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="less-testimonials" style="display:none;">
+        <a href="#">See less Testimonials</a>
+    </div>
+
+  </div>
+</div>
+<!-- Contact Section -->
+<div id="contact">
+  <div class="container">
+    <div class="col-md-4">
+      <div class="row">
+        <div class="section-title">
+          <h2>Get In Touch</h2>
+          <p>Please fill out the form below to send us an email and we will get back to you as soon as possible.</p>
+        </div>
+        <form name="sentMessage" id="contactForm" novalidate action="#https://www.funmiquadrionline.com/sendmail.php">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required style="resize:none;"></textarea>
+            <p class="help-block text-danger"></p>
+          </div>
+          <div id="success"></div>
+          <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
+        </form>
+      </div>
+    </div>
+    <div class="col-md-3 col-md-offset-1 contact-info">
+        <div class="contact-item">
+            <div class="section-title">
+              <h2>Contact Info</h2>
+              <p><span>Address</span>Plot 2979, Dominic Iyang Close <br>Off Tai Solarin Crescent, Gwarinpa Abuja</p>
+              <p><span>Phone</span> +2348131210744<br>+2348028739781<br>+2348170000662<br>+2348036082370</p>
+              <p><span>Email</span> info@funmiquadrionline.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-md-offset-1 contact-info">
+        <div class="contact-item">
+            <div class="section-title">
+              <h2>More</h2>
+              <p><a style="color:white;" href="enquiries.html">Enquiries</a></p>
+              <p><a style="color:white;"  style="color:white;"href="complaints.html">Complaints</a></p>
+              <p><a style="color:white;" href="updates.html">Updates</a></p>
+              <p><a style="color:white;" href="manuals.html">Manuals</a></p>
+              <p><a style="color:white;" href="ourclients.html">Our Clients</a></p>
+              <p><a style="color:white;" href="updates.html">Updates</a></p>
+              <p><a style="color:white;" href="manuals.html">Manuals</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12">
+      <div class="row">
+        <div class="social">
+          <ul>
+            <li><a href="https://api.whatsapp.com/send?phone=2348131210744" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+            <li><a href="https://www.facebook.com/lawcompanion/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer Section -->
+<div id="footer">
+  <div class="container text-center">
+    <p>&copy; 2019 Funmi Quadri & Co</p>
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/nivo-lightbox.js"></script>
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+<script type="text/javascript" src="js/contact_me.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<!-- Initiate Fancybox/Lightbox Script -->
+<script type="text/javascript" src="fancybox/jquery.fancybox.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
+<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="screen" />
+<script type="text/javascript" src="fancybox/jquery.fancybox-media.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.more-testimonials').click(function(event){
+                event.preventDefault();
+                $('#more-testimonials').css('display', 'block');
+                $('.more-testimonials').css('display', 'none');
+                $('.less-testimonials').css('display', 'block');
+            });
+            $('.less-testimonials').click(function(event){
+                event.preventDefault();
+                $('#more-testimonials').css('display', 'none');
+                $('.more-testimonials').css('display', 'block');
+                $('.less-testimonials').css('display', 'none');
+            });
+        });
+    </script>
+</body>
+</html>
